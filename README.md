@@ -1,2 +1,0 @@
-# terabot
-Files for terabot
