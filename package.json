@@ -1,0 +1,16 @@
+{
+  "name": "discord-api-docs",
+  "version": "1.1.0",
+  "description": "Documentation for using Discord's API",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammerandchisel/discord-api-docs.git"
+  },
+  "author": "Cookies",
+  "license": "TERA-BOT",
+  "homepage": "https://github.com/ilganimes/terabot/blob/master/README.md"
+}
