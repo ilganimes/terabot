@@ -1,0 +1,19 @@
+{
+  "name": "TERA-BOT",
+  "version": "1.0.0",
+  "description": "Documentation for using TERA-BOT",
+  "main": "index.js",
+  "directories": {
+      "doc": "docs"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ilganimes/terabot.git"
+    },
+  "author": "Cookies",
+  "license": "TERA-BOT",
+  "homepage": "https://github.com/ilganimes/terabot/blob/master/README.md",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
