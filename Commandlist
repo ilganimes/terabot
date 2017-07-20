@@ -1,0 +1,20 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+client.login("MzM1MzA0MzQ3MzgwNjEzMTIw.DFFYsg.1MAF-i3VmzOJtmeFb-d2OLaMe3s");
+
+client.on("ready", () => {
+  console.log("I am ready!");
+});
+
+client.on("message", (message) => {
+  //Set the prefix
+  let prefix = "?";
+
+  //Exit and stop if it's not there
+  if (!message.content.startsWith(prefix)) return;
+
+  if (message.content.startsWith(prefix+ "commands")) {
+    message.channel.send("ccb, pve, pvp, PVPVE, aoe, dot, cd, CDR, ow, OWPvP, re, htl, we, icb, kds, db, ht, Evis, Fury, hr, Kick, ohs, UOHS, ms, op, Shout, ww, war(r), zerk, valk, sorc, myst, lance, brawl, arch, slay, gun, iframe,");
+  }
+});
